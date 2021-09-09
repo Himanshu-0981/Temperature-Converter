@@ -1,9 +1,18 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
 body{
     padding: 50px 100px;
+    
 }
 
 h1{
     text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 30px;
 }
 
 .container{
@@ -15,13 +24,29 @@ h1{
 .input-div{
     display: inline-block;
 }
+
+#equalSign{
+    display: inline-block;
+    color: white;
+    font-weight: bolder;
+}
 .inp{
-    padding: 5px 10px;
-    margin: 10px;
-    font-size: 30px;
-    font-weight: bold;
+    padding: 15px 10px;
+    margin: 20px;
+    font-size: 15px;
+    /* font-weight: bold; */
     text-align: center;
     direction: none;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+.inp:hover{
+    /* padding: 15px 25px; */
+    transition: 0.3s;
+    background-color: rgb(155, 153, 148);
+    color: white;
 }
 
 label{
@@ -29,4 +54,20 @@ label{
     color: white;
     font-weight: bold;
     font-family: monospace;
+}
+
+.result{
+    color: white;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#resultname{
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#resultnum{
+    margin-top: 5px;
+    cursor: pointer;
 }
